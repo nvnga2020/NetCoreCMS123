@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetcoreCMS.Application\NetcoreCMS.Application.csproj" />
+    <ProjectReference Include="..\NetcoreCMS.Data.EF\NetcoreCMS.Data.EF.csproj" />
+    <ProjectReference Include="..\NetcoreCMS.Data\NetcoreCMS.Data.csproj" />
+    <ProjectReference Include="..\NetcoreCMS.Infrastructure\NetcoreCMS.Infrastructure.csproj" />
+    <ProjectReference Include="..\NetcoreCMS.untilities\NetcoreCMS.untilities.csproj" />
+  </ItemGroup>
+
 </Project>
