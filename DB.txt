@@ -1,0 +1,165 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@nvnga2020 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+teduinternational
+/
+teducoreapp
+1
+1534
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
+teducoreapp/db.txt
+@ngoctoan89 ngoctoan89 Add db description
+286af68 on Nov 1, 2017
+141 lines (126 sloc)  1.05 KB
+  
+Product Category
+	Id
+	Alias
+	Name
+	ParentId
+	Seo
+	CreatedDate,
+	SortingOrder
+	Status
+
+Product
+	Id
+	Name
+	Alias
+	Seo
+	CategoryId
+	CreatedDate,
+	Status,
+	Image,
+	Price
+	PromotionPrice,
+	Quantity,
+	Description
+	Content,
+	HotFlg,
+	NewFlg
+	Status
+	
+
+Bill
+	CustomerId,
+	CustomerName,
+	CustomerAddress,
+	CustomerPhone,
+	CustomerEmail,
+	BillDate,
+	Status
+BillDetail
+	BillId,
+	ProductId,
+	Quantity,
+	Price
+
+User
+UserRole
+Role
+
+Blog
+	Id
+	Name
+	Seo,
+	Description,
+	Content,
+	Image,
+	Status
+Menu
+	Id
+	Name
+	Url,
+	Css,
+	ParentId,
+	Status,
+	SortingOrder
+
+Slide
+	Id
+	Name
+	Url,
+	Image
+	Text,
+	Sort,
+	Status
+
+AdvertisementPage
+	Id
+	Name
+AdvertisementPosition
+	Id
+	PageId
+	Name
+Advertisement
+	PositionId
+	Image
+	Url,
+	Status
+
+Brand
+	Id
+	Name
+	Image
+	Status
+
+Footer
+	Id
+	Content
+
+Language
+	Id
+	Name
+	Default
+
+ProductTag
+	ProductId
+	TagId
+BlogTag
+	BlogId
+	TagId
+Tag
+	Id
+	Name
+	Type
+
+Page
+	Id
+	Name
+	Content
+
+Feedback
+	Name
+	Email
+	Phone
+	Content
+	CreatedDate
+	Status
+
+Contact
+	Id
+	Name
+	Address,
+	Phone,
+	Website,
+	Email,
+	Longtitude,
+	Latitude
+
+SystemConfig
+	Id
+	Value1
+	Value2
+	Value3
+	Value4

@@ -5,15 +5,15 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreCMS", "NetCoreCMS\NetCoreCMS.csproj", "{89B3C560-5B73-4BB8-8232-BB0D005C5276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetcoreCMS.Infrastructure", "NetcoreCMS.Infrastructure\NetcoreCMS.Infrastructure.csproj", "{2145F2DC-1282-492C-B8F3-9E84D12EA1C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetcoreCMS.Infrastructure", "NetcoreCMS.Infrastructure\NetcoreCMS.Infrastructure.csproj", "{2145F2DC-1282-492C-B8F3-9E84D12EA1C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetcoreCMS.untilities", "NetcoreCMS.untilities\NetcoreCMS.untilities.csproj", "{69553F80-270A-4CD5-9255-F6B07E6CCA92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetcoreCMS.untilities", "NetcoreCMS.untilities\NetcoreCMS.untilities.csproj", "{69553F80-270A-4CD5-9255-F6B07E6CCA92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetcoreCMS.Data", "NetcoreCMS.Data\NetcoreCMS.Data.csproj", "{C04A0724-2D47-493E-A076-D5A557ECF58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetcoreCMS.Data", "NetcoreCMS.Data\NetcoreCMS.Data.csproj", "{C04A0724-2D47-493E-A076-D5A557ECF58E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetcoreCMS.Data.EF", "NetcoreCMS.Data.EF\NetcoreCMS.Data.EF.csproj", "{6A52D382-51F2-4714-B4C8-63F0109F81D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetcoreCMS.Data.EF", "NetcoreCMS.Data.EF\NetcoreCMS.Data.EF.csproj", "{6A52D382-51F2-4714-B4C8-63F0109F81D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetcoreCMS.Application", "NetcoreCMS.Application\NetcoreCMS.Application.csproj", "{6CB015E7-8F2F-4AD5-A066-A935253EEC93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetcoreCMS.Application", "NetcoreCMS.Application\NetcoreCMS.Application.csproj", "{6CB015E7-8F2F-4AD5-A066-A935253EEC93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{C6FB7DD4-99D9-499A-9B5B-7A3CCF7DFE76}"
 EndProject
@@ -22,6 +22,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{A35B4079-EB4A-45D0-B402-4ADB7FB4B14A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{EA828731-C928-4BEB-9546-64C5F2B01AEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB747F31-4DC4-43BB-A37F-CA035DBCA36A}"
+	ProjectSection(SolutionItems) = preProject
+		DB.txt = DB.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
